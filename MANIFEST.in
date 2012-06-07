@@ -1,2 +1,3 @@
 recursive-include tw2/jqplugins/chosen/static *
 include README.md
+include LICENSE
