@@ -9,7 +9,7 @@ except:
 
 setup(
     name='tw2.jqplugins.chosen',
-    version='0.1',
+    version='0.2',
     description='ToscaWidgets 2 SelectFields enhanced with the Chosen javascript library.',
     long_description=open('README.md').read(),
     author='Moritz Schlarb',
