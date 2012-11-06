@@ -11,6 +11,4 @@ for chosen: https://github.com/harvesthq/chosen
 Chosen is licensed under the MIT license and so is this
 ToscaWidgets2 library.
 
-The bundled version of Chosen in this project is
-harvesthq/chosen@dc024d784ac1c1971fc968d519ed4ef3d9915f1c
-
+The bundled version of Chosen in this project is v0.9.8
