@@ -31,9 +31,10 @@ setup(
         'FormEncode',
         'WebTest',
         'strainer',
+        'sieve',  # tw2.core.testbase
 
-        'mako',
-        'genshi',
+        'Mako',
+        'Genshi',
     ],
     test_suite = 'nose.collector',
     entry_points="""
@@ -45,7 +46,7 @@ setup(
         'toscawidgets.widgets',
     ],
     classifiers = [
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
         'Environment :: Web Environment :: ToscaWidgets',
         'Topic :: Software Development :: Libraries :: Python Modules',
