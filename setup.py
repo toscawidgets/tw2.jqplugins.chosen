@@ -11,7 +11,7 @@ setup(
     name='tw2.jqplugins.chosen',
     version='0.3',
     description='ToscaWidgets 2 SelectFields enhanced with the Chosen javascript library.',
-    long_description=open('README.md').read(),
+    long_description=open('README.rst').read(),
     author='Moritz Schlarb',
     author_email='moschlar@metalabs.de',
     url='https://github.com/toscawidgets/tw2.jqplugins.chosen',
