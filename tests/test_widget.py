@@ -7,9 +7,7 @@ from tw2.jqplugins.chosen.widgets import (
 
 class TestChosenSingleSelectField(WidgetTest):
     engines = ['mako', 'genshi']
-    # place your widget at the TestWidget attribute
     widget = ChosenSingleSelectField
-    # Initialization args. go here
     attrs = {'id': 'chosen-test', 'options': ['Red', 'Blue']}
     params = {}
     expected = """
@@ -21,9 +19,7 @@ class TestChosenSingleSelectField(WidgetTest):
 
 class TestChosenMultipleSelectField(WidgetTest):
     engines = ['mako', 'genshi']
-    # place your widget at the TestWidget attribute
     widget = ChosenMultipleSelectField
-    # Initialization args. go here
     attrs = {'id': 'chosen-test', 'options': ['Red', 'Blue']}
     params = {}
     expected = """

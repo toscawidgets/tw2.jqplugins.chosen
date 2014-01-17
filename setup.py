@@ -9,11 +9,11 @@ except:
 
 setup(
     name='tw2.jqplugins.chosen',
-    version='0.2',
+    version='0.3',
     description='ToscaWidgets 2 SelectFields enhanced with the Chosen javascript library.',
-    long_description=open('README.md').read(),
+    long_description=open('README.rst').read(),
     author='Moritz Schlarb',
-    author_email='mail@moritz-schlarb.de',
+    author_email='moschlar@metalabs.de',
     url='https://github.com/toscawidgets/tw2.jqplugins.chosen',
     license='MIT',
     install_requires=[
@@ -31,9 +31,10 @@ setup(
         'FormEncode',
         'WebTest',
         'strainer',
+        'sieve',  # tw2.core.testbase
 
-        'mako',
-        'genshi',
+        'Mako',
+        'Genshi',
     ],
     test_suite = 'nose.collector',
     entry_points="""
@@ -45,7 +46,7 @@ setup(
         'toscawidgets.widgets',
     ],
     classifiers = [
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
         'Environment :: Web Environment :: ToscaWidgets',
         'Topic :: Software Development :: Libraries :: Python Modules',
